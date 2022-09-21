@@ -4,7 +4,7 @@ import styles from '../style'
 
 const Stats = () => {
   return (
-    <section className={`${styles.flexStart} ss:flex-row flex-col flex-wrap mb-6 md:mb-20`}>
+    <section className={`${styles.flexStart} ss:flex-row flex-col flex-wrap mb-10 md:mb-40`}>
       {stats.map(((item, index) => (
         <div key={index}>
           <div className='flex'>
