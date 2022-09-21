@@ -16,8 +16,9 @@ const Business = () => {
       <div className={`${styles.flexStart} flex-col`}>
           {features.map((item, index) =>(
             <div key={index} className={`my-5 ${styles.flexCenter} feature-card rounded-xl py-5 mx-auto`}>
-              <div className='bg-blue-400 w-[60px] h-[60px] rounded-full mr-5'></div>
-              {/* <img src={item.icon} alt={item.icon} className='mr-5' /> */}
+              <div className='bg-[#09977C1A] ss:w-[60px] w-[80px] h-[60px] rounded-full mr-5 relative flex flex-row justify-center items-center'>
+                <img src={item.icon} alt={item.icon} className='' />
+              </div>              
               <div className='ss:w-2/3 w-full'>
                 <h3 className={`text-white font-poppins text-[18px] font-semibold leading-[23px] mb-3`}>{item.title}</h3>
                 <p className={`${styles.paragraph} text-[16px] font-normal leading-[24px] font-poppins`}>{item.content}</p>
