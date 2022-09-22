@@ -5,7 +5,7 @@ import styles from '../style'
 
 const Testimonials = () => {
   return (
-    <section className={`mb:20`}>
+    <section className={`md:mb-20 mb-10`}>
       <div className={`flex justify-around flex-col md:flex-row mx-auto md:mb-20 mb-10`}>
           <h1 className={`${styles.heading2}  md:w-2/5 w-full`}>What people are saying about us</h1>
           <p className={`${styles.paragraph} md:w-1/3 w-full items-center justify-center flex`}>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
