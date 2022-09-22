@@ -9,7 +9,7 @@ const CardDeal = () => {
       <div className={`${styles.flexStart} flex-col md:w-2/3 w-full mt-10 p-5`}>
         <h1 className={`${styles.heading2}`}>Find a better card deal in few easy steps.</h1>
         <p className={`${styles.paragraph}`}>Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
-        <Button text="Get Started" link="#getstarted" />
+        <Button text="Get Started" link="#getstarted" classProp='mt-10' />
       </div>
 
       <div className={`${styles.flexStart} md:w-2/3 w-full p-5`}>

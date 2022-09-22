@@ -10,7 +10,7 @@ const Business = () => {
       <div className={`flex-1`}>
         <h1 className={`font-poppins font-semibold leading-[76px] md:text-[48px] text-[38px] text-white`}>You do the business, we’ll handle the money.</h1>
         <p className={`${styles.paragraph} text-[18px] font-normal font-poppins leading-[30px] text-gray-400`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
-        <Button text="Get Started" link="#getstarted" />
+        <Button text="Get Started" link="#getstarted" classProp='mt-10' />
       </div>
 
       <div className={`${styles.flexStart} flex-col`}>
