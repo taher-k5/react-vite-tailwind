@@ -4,7 +4,7 @@ import styles from '../style'
 
 const Billing = () => {
   return (
-    <section className={`flex md:flex-row flex-col justify-center items-start mb-10 md:mb-40`}>
+    <section id='product' className={`flex md:flex-row flex-col justify-center items-start mb-10 md:mb-40`}>
       <div className='flex justify-center items-center'>
         <img src={bill} alt="bill" className='w-full h-full' />
       </div>
@@ -17,7 +17,7 @@ const Billing = () => {
         </div>
       </div>
     </section>
-  ) 
+  )
 }
 
 export default Billing
