@@ -11,7 +11,7 @@ const Testimonials = () => {
           <p className={`${styles.paragraph} md:w-1/3 w-full items-center justify-center flex`}>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
       </div>
 
-      <div className={`${styles.flexStart} md:flex-row flex-col items-center`}>
+      <div className={`${styles.flexStart} ss:flex-row flex-wrap flex-col items-center`}>
         {feedback.map(((item, index) => (
           <div key={index} className={`p-5 w-[370px] h-[400px] flex flex-col justify-evenly feedback-card cursor-pointer hover:rounded-xl`}>
             <img src={quotes} alt="quote" className='w-[42px] h-[27px]' />
